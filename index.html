@@ -4,11 +4,14 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>EAU_Unitat 9</title>
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
 		<link rel="stylesheet" href="dist/theme/black.css">
+		<link rel="stylesheet" href="master.css">
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="slickQuiz.css">
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
@@ -16,8 +19,72 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section>
+					<p style="text-align:justify">
+						1. Funció que consisteix a gestionar tots els tràmits juridicoadministratius que comporta el personal de l'empresa, englobats en àmbits com la selecció i formalització
+						de contractes, tramitació de nòmines i assegurances socials i controls de drets i deures del treballador
+					</p>
+							<div style="margin:0 auto;width:70%;text-align:left;">
+								<div class="fragment shrink highlight-red">a) Formació </div>
+								<div class="fragment shrink highlight-red">b) Relació laboral 	</div>
+								<div class="fragment grow highlight-green" >c) Administració del personal</div>
+							</div>
+				</section>
+				<section>
+					<p style="text-align:justify">
+						2. Es tracta de promoure la comunicació entre l'empresa i els seus empleats, utilitzant els sindicats. Aquestos s'ocupen de les condicions col·lectives del treball, com ara la negociació de convenis col·lectius o els conflictes que es puguen originar i les vies de solució
+					</p>
+							<div style="margin:0 auto;width:70%;text-align:left;">
+								<div class="fragment shrink highlight-red">a) Formació </div>
+								<div class="fragment grow highlight-green">b) Relació laboral 	</div>
+								<div class="fragment shrink highlight-red" >c) Administració del personal</div>
+							</div>
+				</section>
+				
+				<section>
+					<p style="text-align:justify">
+						3. Permet al treballador adaptar-se als canvis que es produeixen a la societat, així com als avanços tecnològics. A més, facilita l'adaptació per a la tasca específica que s´ha de fer dins l'empresa en funció del lloc de treball.
+					</p>
+							<div style="margin:0 auto;width:70%;text-align:left;">
+								<div class="fragment grow highlight-green">a) Formació </div>
+								<div class="fragment shrink highlight-red">b) Relació laboral 	</div>
+								<div class="fragment shrink highlight-red" >c) Administració del personal</div>
+							</div>
+				</section>
+				<section>
+					
+						<p >Què és un conveni col·lectiu?</p>
+					<div class="fragment" style="text-align:justify;">
+						<p class="fragment highlight-green" style="text-align:justify;">Són acords entre els representats dels treballadors i de les empreses d'un sector econòmic on es fixen les condicions de treball i les normes de convivència que s'aplicaran en un periode determinat. </p>
+						<p class="fragment highlight-green">Allò pactact als convenis col·lectius ha de respectar sempre les estipulacions de l'Estatut dels Treballadors, i en cap cas les pot empitjorar.</p> 
+						<p class="fragment highlight-green"> Els convenis col·lectius son fruit de la negociació col·lectiva</p>
+					</div>
+				</section>
+
+				<section>
+					<p >Què és un contracte de treball?</p>
+					<div class="fragment" style="text-align:justify;">
+					<p class="fragment highlight-green" style="text-align:justify;">És un acord normalment d'àmbit inidividual on la persona treballadora i l'empresa pacten les característiques de la relació labora per compte aliè</p>
+					<p class="fragment highlight-green">estipulant sempre les condicions mínimes estipulades al conveni col·lectiu corresponent al sector en qüestió</p> 
+					</div>
+				</section>
+				<section>
+					<p>Diferencia entre professiograma i perfil professional?</p>
+					<div class="fragment" style="text-align:justify;">
+						<p class="fragment shrink">El professiograma defineix les tasques, reponsabilitats, particularitats físiques i ambientals, qualificacions professionals requerides que defineixen amb tota claredat els tipus i les condicions de cadascun dels llocs de treball.</p>
+						<p class="fragment shrink" > El perfil professional identifica els aspectes físics, aptituds tècniques i psicològiques, capacitats necessàries, aspectes emotius i coneixements necessaris per cobrir el lloc de treball. </p>
+					</div>
+				</section>
+				<section>
+					<p> <span style="color:red">Fals</span>  o <span style="color:green">veritable</span> ?</p>
+					<div style="text-align:justify;"></div>
+					<p class="fragment highlight-red" style="text-align:justify;" >L'afiliació a la Seguretat Social implica l'alta al mateix temps </p>
+					<p class="fragment highlight-green" style="text-align:justify;" >El número de d'afiliació a la Seguretat Social es vitalici i per a tot el sistema </p>
+					<p class="fragment highlight-red" style="text-align:justify;" >L'alta i l'afiliació solament la pot realitzar l'empresari </p>
+					<p class="fragment highlight-green" style="text-align:justify;" >L'alta suposa l'adscripció a un determinat règim de la Seguretat Social </p>
+
+				</section>
+
 			</div>
 		</div>
 
@@ -31,9 +98,9 @@
 			// - https://revealjs.com/config/
 			Reveal.initialize({
 				hash: true,
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes],
+				
 
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
 			});
 		</script>
 	</body>
